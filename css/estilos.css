@@ -96,7 +96,7 @@
     #correo {
         text-decoration: underline;
     }
-
+    /* Index */
 	#columna1 {
 	    background-color: #82c3a6;
 	    width: 100%;
@@ -114,6 +114,25 @@
         height: 50%;
                  
     }
+    /* paisajes*/
+    #columna_1 {
+        background-color: #d5c75f;
+        width: 33.3%;
+        height: 100%
+    }
+
+    #columna_2 {
+        background-color: #d5c75f;
+        width: 33.3%;
+        height: 100%
+
+    }
+
+    #columna_3 {
+        background-color: #d5c75f;
+        width: 33.3%;
+        height: 100%
+    }
     /* Animacion */
      #imagen1:hover {
          transform: rotate(10deg);
@@ -123,6 +142,15 @@
          transform: translate(5px,20px);
          box-shadow: 2px#82c3a6
      }
+    #imagen_1 {
+        filter: blur(10px);
+    }
+    #imagen_2, #imagen_4 ,#imagen_6{
+        filter: grayscale(100%);
+    }
+    #imagen_3 {
+        filter: sepia(90%);
+    }
 
     @keyframes slidein {
         0% {
@@ -227,6 +255,7 @@
             width: 100%;
             margin: 0 auto;
         }
+        /* index */
         #columna1  {
             width: 100%;
         }
@@ -234,6 +263,18 @@
             width: 100%;
         }
         #columna3 {
+            width: 100%;
+        }
+       /* paisajes */
+        #columna_1 {
+            width: 100%;
+        }
+
+        #columna_2 {
+            width: 100%;
+        }
+
+        #columna_3 {
             width: 100%;
         }
         
