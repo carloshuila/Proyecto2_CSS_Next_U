@@ -96,6 +96,7 @@
     #correo {
         text-decoration: underline;
     }
+
     /* Index */
 	#columna1 {
 	    background-color: #82c3a6;
@@ -114,7 +115,8 @@
         height: 50%;
                  
     }
-    /* paisajes*/
+
+    /* paisajes  y Retratos*/
     #columna_1 {
         background-color: #d5c75f;
         width: 33.3%;
@@ -133,6 +135,7 @@
         width: 33.3%;
         height: 100%
     }
+    
     /* Animacion */
      #imagen1:hover {
          transform: rotate(10deg);
